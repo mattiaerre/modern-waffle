@@ -14,9 +14,9 @@
     "debug": "~2.2.0",
     "dotenv": "^2.0.0",
     "express": "~4.13.4",
+    "express-favicon-short-circuit": "^1.1.0",
     "morgan": "~1.7.0",
-    "pug": "^2.0.0-beta6",
-    "serve-favicon": "~2.3.0"
+    "pug": "^2.0.0-beta6"
   },
   "description": "modern-waffle",
   "main": "app.js",
