@@ -11,7 +11,7 @@ describe('given [context]', () => {
   describe('when [event]', () => {
     it('then [outcome]', () => {
       const name = chance.name();
-      greeter(name).should.equal(`Ciao ${name}!`);
+      greeter(name).should.equal(`Hello ${name}!`);
     });
   });
 });
