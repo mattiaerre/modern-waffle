@@ -4,8 +4,8 @@
   "private": true,
   "scripts": {
     "coverage": "istanbul cover _mocha test --  --recursive",
-    "nodemon": "nodemon ./bin/www",
-    "start": "node ./bin/www",
+    "nodemon": "nodemon ./src/bin/www",
+    "start": "node ./src/bin/www",
     "test": "mocha --recursive"
   },
   "dependencies": {

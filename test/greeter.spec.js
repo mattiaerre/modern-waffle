@@ -3,7 +3,7 @@
 
 const chai = require('chai');
 const chance = require('chance').Chance();
-const greeter = require('../greeter');
+const greeter = require('../src/greeter');
 
 chai.should();
 
