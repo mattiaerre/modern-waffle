@@ -3,12 +3,16 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "start": "node ./bin/www"
+    "coverage": "istanbul cover _mocha test --  --recursive",
+    "nodemon": "nodemon ./bin/www",
+    "start": "node ./bin/www",
+    "test": "mocha --recursive"
   },
   "dependencies": {
     "body-parser": "~1.15.1",
     "cookie-parser": "~1.4.3",
     "debug": "~2.2.0",
+    "dotenv": "^2.0.0",
     "express": "~4.13.4",
     "morgan": "~1.7.0",
     "pug": "^2.0.0-beta6",
@@ -28,5 +32,18 @@
   "bugs": {
     "url": "https://github.com/mattiaerre/modern-waffle/issues"
   },
-  "homepage": "https://github.com/mattiaerre/modern-waffle#readme"
+  "homepage": "https://github.com/mattiaerre/modern-waffle#readme",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "chance": "^1.0.4",
+    "eslint": "^3.5.0",
+    "eslint-config-airbnb": "^11.1.0",
+    "eslint-plugin-import": "^1.15.0",
+    "eslint-plugin-jsx-a11y": "^2.2.2",
+    "eslint-plugin-react": "^6.2.2",
+    "istanbul": "^0.4.5",
+    "mocha": "^3.0.2",
+    "nodemon": "^1.10.2",
+    "sinon": "^1.17.5"
+  }
 }
