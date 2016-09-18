@@ -16,7 +16,8 @@
     "express": "~4.13.4",
     "express-favicon-short-circuit": "^1.1.0",
     "morgan": "~1.7.0",
-    "pug": "^2.0.0-beta6"
+    "pug": "^2.0.0-beta6",
+    "request": "^2.75.0"
   },
   "description": "modern-waffle",
   "main": "app.js",
