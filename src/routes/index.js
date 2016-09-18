@@ -1,10 +1,12 @@
-var express = require('express');
-var router = express.Router();
+const express = require('express');
 
-const name = require('../../package.json').name
+const router = express.Router();
 
-router.get('/', function (req, res, next) {
-  res.render('index', { title: name });
+const name = require('../../package.json').name;
+const version = require('../../package.json').version;
+
+router.get('/', (req, res, next) => {
+  res.render('index', { title: `${name} v${version}` });
 });
 
 module.exports = router;

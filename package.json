@@ -44,6 +44,10 @@
     "istanbul": "^0.4.5",
     "mocha": "^3.0.2",
     "nodemon": "^1.10.2",
+    "pre-push": "^0.1.1",
     "sinon": "^1.17.5"
-  }
+  },
+  "pre-push": [
+    "test"
+  ]
 }
