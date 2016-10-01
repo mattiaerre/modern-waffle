@@ -11,7 +11,6 @@ const app = express();
 const server = http.createServer(app);
 
 // socket.io
-/*
 const io = require('socket.io')(server);
 const debug = require('debug')('homeless-alarm:server');
 
@@ -23,7 +22,6 @@ app.use((req, res, next) => {
   res.io = io;
   next();
 });
-*/
 // /socket.io
 
 // view engine setup
