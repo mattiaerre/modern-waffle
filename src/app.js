@@ -5,10 +5,12 @@ const cookieParser = require('cookie-parser');
 const bodyParser = require('body-parser');
 const http = require('http');
 
-require('dotenv').config();
-
 const app = express();
 const server = http.createServer(app);
+
+if (app.get('env') === 'development') {
+  require('dotenv').config();
+}
 
 // socket.io
 const io = require('socket.io')(server);
