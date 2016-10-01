@@ -33,7 +33,7 @@ app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
-// app.use(require('express-favicon-short-circuit'));
+app.use(require('express-favicon-short-circuit'));
 
 const routes = require('./routes/index');
 const fixture = require('./routes/fixture');

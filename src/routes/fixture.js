@@ -19,7 +19,7 @@ router.get('/', (req, res, next) => {
       fixture = JSON.stringify(JSON.parse(body).fixture, null, 2);
     }
     res.io.emit('server:fixture', fixture);
-    res.send({ message: `fixture ${id} has been published` });
+    res.send({ message: `the fixture ${id} has been published` });
   });
 });
 
