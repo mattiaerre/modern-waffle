@@ -6,3 +6,31 @@ body {
 a {
   color: #00B7FF;
 }
+
+.border-1-solid-999 {
+  border: 1px solid #999;
+}
+
+.display-none {
+  display: none;
+}
+
+.display-inline {
+  display: inline;
+}
+
+.display-flex {
+  display: flex;
+}
+
+.float-left {
+  float: left;
+}
+
+.padding-1em {
+  padding: 1em;
+}
+
+.padding-05em {
+  padding: 0.5em;
+}

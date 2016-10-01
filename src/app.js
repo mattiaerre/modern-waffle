@@ -3,11 +3,26 @@ const path = require('path');
 const logger = require('morgan');
 const cookieParser = require('cookie-parser');
 const bodyParser = require('body-parser');
+const http = require('http');
+const debug = require('debug')('homeless-alarm:server')
+
 require('dotenv').config();
 
-const routes = require('./routes/index');
-
 const app = express();
+const server = http.createServer(app);
+
+// socket.io
+const io = require('socket.io')(server);
+
+io.on('connection', () => {
+  debug('socket.io connected');
+});
+
+app.use((req, res, next) => {
+  res.io = io;
+  next();
+});
+// /socket.io
 
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
@@ -20,7 +35,11 @@ app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
 app.use(require('express-favicon-short-circuit'));
 
+const routes = require('./routes/index');
+const fixture = require('./routes/fixture');
+
 app.use('/', routes);
+app.use('/fixture', fixture);
 
 // catch 404 and forward to error handler
 app.use((req, res, next) => {
@@ -53,4 +72,4 @@ app.use((err, req, res, next) => {
   });
 });
 
-module.exports = app;
+module.exports = { app, server };

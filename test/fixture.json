@@ -1,0 +1,30 @@
+{
+  "_links": {
+    "self": {
+      "href": "http://api.football-data.org/v1/fixtures/150781"
+    },
+    "competition": {
+      "href": "http://api.football-data.org/v1/competitions/426"
+    },
+    "homeTeam": {
+      "href": "http://api.football-data.org/v1/teams/72"
+    },
+    "awayTeam": {
+      "href": "http://api.football-data.org/v1/teams/64"
+    }
+  },
+  "date": "2016-10-01T11:30:00Z",
+  "status": "TIMED",
+  "matchday": 7,
+  "homeTeamName": "Swansea City FC",
+  "awayTeamName": "Liverpool FC",
+  "result": {
+    "goalsHomeTeam": null,
+    "goalsAwayTeam": null
+  },
+  "odds": {
+    "homeWin": 5.8,
+    "draw": 4.4,
+    "awayWin": 1.5
+  }
+}

@@ -1,0 +1,313 @@
+{
+  "_links": {
+    "self": {
+      "href": "http://api.football-data.org/v1/competitions/426/fixtures"
+    },
+    "competition": {
+      "href": "http://api.football-data.org/v1/competitions/426"
+    }
+  },
+  "count": 10,
+  "fixtures": [
+    {
+      "_links": {
+        "self": {
+          "href": "http://api.football-data.org/v1/fixtures/150776"
+        },
+        "competition": {
+          "href": "http://api.football-data.org/v1/competitions/426"
+        },
+        "homeTeam": {
+          "href": "http://api.football-data.org/v1/teams/62"
+        },
+        "awayTeam": {
+          "href": "http://api.football-data.org/v1/teams/354"
+        }
+      },
+      "date": "2016-09-30T19:00:00Z",
+      "status": "FINISHED",
+      "matchday": 7,
+      "homeTeamName": "Everton FC",
+      "awayTeamName": "Crystal Palace FC",
+      "result": {
+        "goalsHomeTeam": 1,
+        "goalsAwayTeam": 1
+      },
+      "odds": {
+        "homeWin": 1.72,
+        "draw": 4.0,
+        "awayWin": 4.33
+      }
+    },
+    {
+      "_links": {
+        "self": {
+          "href": "http://api.football-data.org/v1/fixtures/150781"
+        },
+        "competition": {
+          "href": "http://api.football-data.org/v1/competitions/426"
+        },
+        "homeTeam": {
+          "href": "http://api.football-data.org/v1/teams/72"
+        },
+        "awayTeam": {
+          "href": "http://api.football-data.org/v1/teams/64"
+        }
+      },
+      "date": "2016-10-01T11:30:00Z",
+      "status": "TIMED",
+      "matchday": 7,
+      "homeTeamName": "Swansea City FC",
+      "awayTeamName": "Liverpool FC",
+      "result": {
+        "goalsHomeTeam": null,
+        "goalsAwayTeam": null
+      },
+      "odds": {
+        "homeWin": 5.8,
+        "draw": 4.4,
+        "awayWin": 1.5
+      }
+    },
+    {
+      "_links": {
+        "self": {
+          "href": "http://api.football-data.org/v1/fixtures/150780"
+        },
+        "competition": {
+          "href": "http://api.football-data.org/v1/competitions/426"
+        },
+        "homeTeam": {
+          "href": "http://api.football-data.org/v1/teams/71"
+        },
+        "awayTeam": {
+          "href": "http://api.football-data.org/v1/teams/74"
+        }
+      },
+      "date": "2016-10-01T14:00:00Z",
+      "status": "TIMED",
+      "matchday": 7,
+      "homeTeamName": "Sunderland AFC",
+      "awayTeamName": "West Bromwich Albion FC",
+      "result": {
+        "goalsHomeTeam": null,
+        "goalsAwayTeam": null
+      },
+      "odds": {
+        "homeWin": 2.45,
+        "draw": 3.25,
+        "awayWin": 2.9
+      }
+    },
+    {
+      "_links": {
+        "self": {
+          "href": "http://api.football-data.org/v1/fixtures/150783"
+        },
+        "competition": {
+          "href": "http://api.football-data.org/v1/competitions/426"
+        },
+        "homeTeam": {
+          "href": "http://api.football-data.org/v1/teams/346"
+        },
+        "awayTeam": {
+          "href": "http://api.football-data.org/v1/teams/1044"
+        }
+      },
+      "date": "2016-10-01T14:00:00Z",
+      "status": "TIMED",
+      "matchday": 7,
+      "homeTeamName": "Watford FC",
+      "awayTeamName": "AFC Bournemouth",
+      "result": {
+        "goalsHomeTeam": null,
+        "goalsAwayTeam": null
+      },
+      "odds": {
+        "homeWin": 2.2,
+        "draw": 3.5,
+        "awayWin": 3.1
+      }
+    },
+    {
+      "_links": {
+        "self": {
+          "href": "http://api.football-data.org/v1/fixtures/150784"
+        },
+        "competition": {
+          "href": "http://api.football-data.org/v1/competitions/426"
+        },
+        "homeTeam": {
+          "href": "http://api.football-data.org/v1/teams/563"
+        },
+        "awayTeam": {
+          "href": "http://api.football-data.org/v1/teams/343"
+        }
+      },
+      "date": "2016-10-01T14:00:00Z",
+      "status": "TIMED",
+      "matchday": 7,
+      "homeTeamName": "West Ham United FC",
+      "awayTeamName": "Middlesbrough FC",
+      "result": {
+        "goalsHomeTeam": null,
+        "goalsAwayTeam": null
+      },
+      "odds": {
+        "homeWin": 2.1,
+        "draw": 3.4,
+        "awayWin": 3.4
+      }
+    },
+    {
+      "_links": {
+        "self": {
+          "href": "http://api.football-data.org/v1/fixtures/150777"
+        },
+        "competition": {
+          "href": "http://api.football-data.org/v1/competitions/426"
+        },
+        "homeTeam": {
+          "href": "http://api.football-data.org/v1/teams/322"
+        },
+        "awayTeam": {
+          "href": "http://api.football-data.org/v1/teams/61"
+        }
+      },
+      "date": "2016-10-01T14:00:00Z",
+      "status": "TIMED",
+      "matchday": 7,
+      "homeTeamName": "Hull City FC",
+      "awayTeamName": "Chelsea FC",
+      "result": {
+        "goalsHomeTeam": null,
+        "goalsAwayTeam": null
+      },
+      "odds": {
+        "homeWin": 6.5,
+        "draw": 4.4,
+        "awayWin": 1.5
+      }
+    },
+    {
+      "_links": {
+        "self": {
+          "href": "http://api.football-data.org/v1/fixtures/150779"
+        },
+        "competition": {
+          "href": "http://api.football-data.org/v1/competitions/426"
+        },
+        "homeTeam": {
+          "href": "http://api.football-data.org/v1/teams/66"
+        },
+        "awayTeam": {
+          "href": "http://api.football-data.org/v1/teams/70"
+        }
+      },
+      "date": "2016-10-02T11:00:00Z",
+      "status": "TIMED",
+      "matchday": 7,
+      "homeTeamName": "Manchester United FC",
+      "awayTeamName": "Stoke City FC",
+      "result": {
+        "goalsHomeTeam": null,
+        "goalsAwayTeam": null
+      },
+      "odds": {
+        "homeWin": 1.3,
+        "draw": 5.0,
+        "awayWin": 12.0
+      }
+    },
+    {
+      "_links": {
+        "self": {
+          "href": "http://api.football-data.org/v1/fixtures/150778"
+        },
+        "competition": {
+          "href": "http://api.football-data.org/v1/competitions/426"
+        },
+        "homeTeam": {
+          "href": "http://api.football-data.org/v1/teams/338"
+        },
+        "awayTeam": {
+          "href": "http://api.football-data.org/v1/teams/340"
+        }
+      },
+      "date": "2016-10-02T13:15:00Z",
+      "status": "TIMED",
+      "matchday": 7,
+      "homeTeamName": "Leicester City FC",
+      "awayTeamName": "Southampton FC",
+      "result": {
+        "goalsHomeTeam": null,
+        "goalsAwayTeam": null
+      },
+      "odds": {
+        "homeWin": 2.0,
+        "draw": 3.6,
+        "awayWin": 3.6
+      }
+    },
+    {
+      "_links": {
+        "self": {
+          "href": "http://api.football-data.org/v1/fixtures/150782"
+        },
+        "competition": {
+          "href": "http://api.football-data.org/v1/competitions/426"
+        },
+        "homeTeam": {
+          "href": "http://api.football-data.org/v1/teams/73"
+        },
+        "awayTeam": {
+          "href": "http://api.football-data.org/v1/teams/65"
+        }
+      },
+      "date": "2016-10-02T13:15:00Z",
+      "status": "TIMED",
+      "matchday": 7,
+      "homeTeamName": "Tottenham Hotspur FC",
+      "awayTeamName": "Manchester City FC",
+      "result": {
+        "goalsHomeTeam": null,
+        "goalsAwayTeam": null
+      },
+      "odds": {
+        "homeWin": 3.6,
+        "draw": 3.5,
+        "awayWin": 2.0
+      }
+    },
+    {
+      "_links": {
+        "self": {
+          "href": "http://api.football-data.org/v1/fixtures/150775"
+        },
+        "competition": {
+          "href": "http://api.football-data.org/v1/competitions/426"
+        },
+        "homeTeam": {
+          "href": "http://api.football-data.org/v1/teams/328"
+        },
+        "awayTeam": {
+          "href": "http://api.football-data.org/v1/teams/57"
+        }
+      },
+      "date": "2016-10-02T15:30:00Z",
+      "status": "TIMED",
+      "matchday": 7,
+      "homeTeamName": "Burnley FC",
+      "awayTeamName": "Arsenal FC",
+      "result": {
+        "goalsHomeTeam": null,
+        "goalsAwayTeam": null
+      },
+      "odds": {
+        "homeWin": 7.0,
+        "draw": 4.5,
+        "awayWin": 1.44
+      }
+    }
+  ]
+}
