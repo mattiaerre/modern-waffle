@@ -6,7 +6,7 @@
   const away = fixture.getElementsByClassName('away')[0];
   const odds = fixture.getElementsByClassName('odds')[0];
 
-  const socket = io('//127.0.0.1:3000');
+  const socket = io('//modern-waffle.herokuapp.com/');
   socket.on('server:fixture', (message) => {
     console.log('now:', Date.now());
 
