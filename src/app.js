@@ -4,7 +4,6 @@ const logger = require('morgan');
 const cookieParser = require('cookie-parser');
 const bodyParser = require('body-parser');
 const http = require('http');
-const debug = require('debug')('homeless-alarm:server');
 
 require('dotenv').config();
 
@@ -12,7 +11,9 @@ const app = express();
 const server = http.createServer(app);
 
 // socket.io
+/*
 const io = require('socket.io')(server);
+const debug = require('debug')('homeless-alarm:server');
 
 io.on('connection', () => {
   debug('socket.io connected');
@@ -22,6 +23,7 @@ app.use((req, res, next) => {
   res.io = io;
   next();
 });
+*/
 // /socket.io
 
 // view engine setup

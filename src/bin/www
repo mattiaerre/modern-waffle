@@ -4,7 +4,8 @@
  * Module dependencies.
  */
 
-var app = require('../app').app;
+const { app, server } = require('../app');
+
 var debug = require('debug')('modern-waffle:server');
 
 /**
@@ -21,8 +22,6 @@ app.set('port', port);
 /**
  * Listen on provided port, on all network interfaces.
  */
-
-const server = require('../app').server;
 
 server.listen(port);
 server.on('error', onError);
