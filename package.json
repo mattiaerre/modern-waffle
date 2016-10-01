@@ -51,5 +51,8 @@
   },
   "pre-push": [
     "test"
-  ]
+  ],
+  "engines": {
+    "node": "6.3.0"
+  }
 }
